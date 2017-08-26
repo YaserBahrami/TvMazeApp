@@ -7,12 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		17367C42B851194878FC4626 /* Pods_TvMazeAppTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6ADB92AA9B089ADA86387D86 /* Pods_TvMazeAppTests.framework */; };
 		43789F071F46218300C1562F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43789F061F46218300C1562F /* AppDelegate.swift */; };
-		43789F091F46218300C1562F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43789F081F46218300C1562F /* ViewController.swift */; };
 		43789F0C1F46218300C1562F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 43789F0A1F46218300C1562F /* Main.storyboard */; };
 		43789F0E1F46218300C1562F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 43789F0D1F46218300C1562F /* Assets.xcassets */; };
 		43789F111F46218300C1562F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 43789F0F1F46218300C1562F /* LaunchScreen.storyboard */; };
-		43789F1C1F46218300C1562F /* TvMazeAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43789F1B1F46218300C1562F /* TvMazeAppTests.swift */; };
+		4381376E1F50DE1500EDDDF9 /* detailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4381376D1F50DE1500EDDDF9 /* detailViewController.swift */; };
+		438137701F50E1F600EDDDF9 /* ListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4381376F1F50E1F600EDDDF9 /* ListViewController.swift */; };
+		438137721F50E23300EDDDF9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 438137711F50E23300EDDDF9 /* ViewController.swift */; };
+		4396D65A1F47868800FB6EC3 /* ShowListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4396D6591F47868800FB6EC3 /* ShowListTableViewCell.swift */; };
+		43AF06371F50C407006911EB /* ShowDetailModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43AF06361F50C407006911EB /* ShowDetailModel.swift */; };
+		43DF76961F4CC5E50041737C /* WebService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43DF76951F4CC5E50041737C /* WebService.swift */; };
+		43DF76981F4CC6390041737C /* ShowBriefModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43DF76971F4CC6390041737C /* ShowBriefModel.swift */; };
+		CEC2FEEB5648B49F8C35BB30 /* Pods_TvMazeApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6F65D6DFD6414F109405305 /* Pods_TvMazeApp.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,14 +35,25 @@
 /* Begin PBXFileReference section */
 		43789F031F46218300C1562F /* TvMazeApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TvMazeApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		43789F061F46218300C1562F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		43789F081F46218300C1562F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		43789F0B1F46218300C1562F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		43789F0D1F46218300C1562F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		43789F101F46218300C1562F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		43789F121F46218300C1562F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		43789F171F46218300C1562F /* TvMazeAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TvMazeAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		43789F1B1F46218300C1562F /* TvMazeAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TvMazeAppTests.swift; sourceTree = "<group>"; };
 		43789F1D1F46218300C1562F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4381376D1F50DE1500EDDDF9 /* detailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = detailViewController.swift; sourceTree = "<group>"; };
+		4381376F1F50E1F600EDDDF9 /* ListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListViewController.swift; sourceTree = "<group>"; };
+		438137711F50E23300EDDDF9 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		4396D6591F47868800FB6EC3 /* ShowListTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShowListTableViewCell.swift; sourceTree = "<group>"; };
+		43AF06361F50C407006911EB /* ShowDetailModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShowDetailModel.swift; sourceTree = "<group>"; };
+		43DF76951F4CC5E50041737C /* WebService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebService.swift; sourceTree = "<group>"; };
+		43DF76971F4CC6390041737C /* ShowBriefModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShowBriefModel.swift; sourceTree = "<group>"; };
+		49EA94953AC9ADAAD067955C /* Pods-TvMazeAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TvMazeAppTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TvMazeAppTests/Pods-TvMazeAppTests.debug.xcconfig"; sourceTree = "<group>"; };
+		53FE91EE98490A26CF4700B3 /* Pods-TvMazeAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TvMazeAppTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-TvMazeAppTests/Pods-TvMazeAppTests.release.xcconfig"; sourceTree = "<group>"; };
+		67B32EC4113E1D6E54964673 /* Pods-TvMazeApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TvMazeApp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TvMazeApp/Pods-TvMazeApp.debug.xcconfig"; sourceTree = "<group>"; };
+		6ADB92AA9B089ADA86387D86 /* Pods_TvMazeAppTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TvMazeAppTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A6F65D6DFD6414F109405305 /* Pods_TvMazeApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TvMazeApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B33243F2BA69079E8946672B /* Pods-TvMazeApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TvMazeApp.release.xcconfig"; path = "Pods/Target Support Files/Pods-TvMazeApp/Pods-TvMazeApp.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +61,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CEC2FEEB5648B49F8C35BB30 /* Pods_TvMazeApp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -50,6 +69,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				17367C42B851194878FC4626 /* Pods_TvMazeAppTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -62,6 +82,8 @@
 				43789F051F46218300C1562F /* TvMazeApp */,
 				43789F1A1F46218300C1562F /* TvMazeAppTests */,
 				43789F041F46218300C1562F /* Products */,
+				FE753E57B7A76905019A675E /* Pods */,
+				52218B7088F2883B7812BC63 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -77,8 +99,11 @@
 		43789F051F46218300C1562F /* TvMazeApp */ = {
 			isa = PBXGroup;
 			children = (
+				43FEACEB1F470C8900FF7E3D /* Service */,
+				43FEACEA1F470C8300FF7E3D /* Model */,
+				43FEACE91F470C7C00FF7E3D /* View */,
+				43FEACE81F470C6900FF7E3D /* Controller */,
 				43789F061F46218300C1562F /* AppDelegate.swift */,
-				43789F081F46218300C1562F /* ViewController.swift */,
 				43789F0A1F46218300C1562F /* Main.storyboard */,
 				43789F0D1F46218300C1562F /* Assets.xcassets */,
 				43789F0F1F46218300C1562F /* LaunchScreen.storyboard */,
@@ -90,10 +115,64 @@
 		43789F1A1F46218300C1562F /* TvMazeAppTests */ = {
 			isa = PBXGroup;
 			children = (
-				43789F1B1F46218300C1562F /* TvMazeAppTests.swift */,
 				43789F1D1F46218300C1562F /* Info.plist */,
 			);
 			path = TvMazeAppTests;
+			sourceTree = "<group>";
+		};
+		43FEACE81F470C6900FF7E3D /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				438137711F50E23300EDDDF9 /* ViewController.swift */,
+				4381376F1F50E1F600EDDDF9 /* ListViewController.swift */,
+				4381376D1F50DE1500EDDDF9 /* detailViewController.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		43FEACE91F470C7C00FF7E3D /* View */ = {
+			isa = PBXGroup;
+			children = (
+				4396D6591F47868800FB6EC3 /* ShowListTableViewCell.swift */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		43FEACEA1F470C8300FF7E3D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				43DF76971F4CC6390041737C /* ShowBriefModel.swift */,
+				43AF06361F50C407006911EB /* ShowDetailModel.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		43FEACEB1F470C8900FF7E3D /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				43DF76951F4CC5E50041737C /* WebService.swift */,
+			);
+			name = Service;
+			sourceTree = "<group>";
+		};
+		52218B7088F2883B7812BC63 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A6F65D6DFD6414F109405305 /* Pods_TvMazeApp.framework */,
+				6ADB92AA9B089ADA86387D86 /* Pods_TvMazeAppTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FE753E57B7A76905019A675E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				67B32EC4113E1D6E54964673 /* Pods-TvMazeApp.debug.xcconfig */,
+				B33243F2BA69079E8946672B /* Pods-TvMazeApp.release.xcconfig */,
+				49EA94953AC9ADAAD067955C /* Pods-TvMazeAppTests.debug.xcconfig */,
+				53FE91EE98490A26CF4700B3 /* Pods-TvMazeAppTests.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -103,9 +182,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 43789F201F46218300C1562F /* Build configuration list for PBXNativeTarget "TvMazeApp" */;
 			buildPhases = (
+				C14166F071DB7BF125AB49A4 /* [CP] Check Pods Manifest.lock */,
 				43789EFF1F46218300C1562F /* Sources */,
 				43789F001F46218300C1562F /* Frameworks */,
 				43789F011F46218300C1562F /* Resources */,
+				01A5CA070C62073DEB3D4BEE /* [CP] Embed Pods Frameworks */,
+				34AF43534C785364AAF701C2 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -120,9 +202,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 43789F231F46218300C1562F /* Build configuration list for PBXNativeTarget "TvMazeAppTests" */;
 			buildPhases = (
+				59D01DA0217D455A0DAB17CD /* [CP] Check Pods Manifest.lock */,
 				43789F131F46218300C1562F /* Sources */,
 				43789F141F46218300C1562F /* Frameworks */,
 				43789F151F46218300C1562F /* Resources */,
+				00380595ABCF26D3B46890F5 /* [CP] Embed Pods Frameworks */,
+				C8CB6C048DB0494B6DFD90F7 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -151,6 +236,7 @@
 					43789F161F46218300C1562F = {
 						CreatedOnToolsVersion = 8.3.3;
 						DevelopmentTeam = 2BU7VMYFA8;
+						LastSwiftMigration = 0830;
 						ProvisioningStyle = Automatic;
 						TestTargetID = 43789F021F46218300C1562F;
 					};
@@ -195,13 +281,112 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		00380595ABCF26D3B46890F5 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TvMazeAppTests/Pods-TvMazeAppTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		01A5CA070C62073DEB3D4BEE /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TvMazeApp/Pods-TvMazeApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		34AF43534C785364AAF701C2 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TvMazeApp/Pods-TvMazeApp-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		59D01DA0217D455A0DAB17CD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		C14166F071DB7BF125AB49A4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		C8CB6C048DB0494B6DFD90F7 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TvMazeAppTests/Pods-TvMazeAppTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		43789EFF1F46218300C1562F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				43789F091F46218300C1562F /* ViewController.swift in Sources */,
+				4396D65A1F47868800FB6EC3 /* ShowListTableViewCell.swift in Sources */,
+				43AF06371F50C407006911EB /* ShowDetailModel.swift in Sources */,
+				43DF76961F4CC5E50041737C /* WebService.swift in Sources */,
 				43789F071F46218300C1562F /* AppDelegate.swift in Sources */,
+				43DF76981F4CC6390041737C /* ShowBriefModel.swift in Sources */,
+				438137701F50E1F600EDDDF9 /* ListViewController.swift in Sources */,
+				438137721F50E23300EDDDF9 /* ViewController.swift in Sources */,
+				4381376E1F50DE1500EDDDF9 /* detailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -209,7 +394,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				43789F1C1F46218300C1562F /* TvMazeAppTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -340,6 +524,7 @@
 		};
 		43789F211F46218300C1562F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 67B32EC4113E1D6E54964673 /* Pods-TvMazeApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 2BU7VMYFA8;
@@ -353,6 +538,7 @@
 		};
 		43789F221F46218300C1562F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B33243F2BA69079E8946672B /* Pods-TvMazeApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 2BU7VMYFA8;
@@ -366,14 +552,17 @@
 		};
 		43789F241F46218300C1562F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 49EA94953AC9ADAAD067955C /* Pods-TvMazeAppTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
 				DEVELOPMENT_TEAM = 2BU7VMYFA8;
 				INFOPLIST_FILE = TvMazeAppTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Com.YaserBahrami.Projects.TvMazeAppTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TvMazeApp.app/TvMazeApp";
 			};
@@ -381,9 +570,11 @@
 		};
 		43789F251F46218300C1562F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 53FE91EE98490A26CF4700B3 /* Pods-TvMazeAppTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
 				DEVELOPMENT_TEAM = 2BU7VMYFA8;
 				INFOPLIST_FILE = TvMazeAppTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -413,6 +604,7 @@
 				43789F221F46218300C1562F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		43789F231F46218300C1562F /* Build configuration list for PBXNativeTarget "TvMazeAppTests" */ = {
 			isa = XCConfigurationList;
@@ -421,6 +613,7 @@
 				43789F251F46218300C1562F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
